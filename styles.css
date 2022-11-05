@@ -1,0 +1,31 @@
+html {
+    scroll-behavior: smooth;
+}
+
+header,
+section,
+footer {
+    width: 960px;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-image: url(imagenes/fondo.png);
+    background-blend-mode: normal;
+}
+
+.carrousel {
+    background-color: aliceblue;
+    height: 300px;
+}
+
+.info {
+    background-color: aquamarine;
+    height: 300px;
+}
+
+.footer {
+    background-color: blueviolet;
+    height: 100px;
+}
