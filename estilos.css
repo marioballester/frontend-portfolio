@@ -1,0 +1,67 @@
+header,
+section,
+footer {
+    margin: auto;
+    width: 960px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul {
+    display: inline;
+    float: right;
+}
+
+li {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+li a {
+    text-decoration: none;
+    margin-top: 30px;
+}
+
+.contenedor_banner {
+    height: 300px;
+}
+
+#banner {
+    text-align: center;
+    margin: auto;
+    background-color: #00222B;
+    color: white;
+    padding: 100px;
+}
+
+.foto_perfil {
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: -80px;
+}
+
+.cont_foto {
+    position: absolute;
+    top: 0;
+}
+
+#sobre {
+    text-align: center;
+}
+
+#cont_sobre {
+    text-align: justify;
+    margin-top: 20px;
+}
+
+.experiencia {
+    border: solid;
+    border-color: black;
+    border-style: groove;
+    border-width: 3px;
+}
+
+.empresa {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 30px;
+}
