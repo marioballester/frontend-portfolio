@@ -1,1 +1,97 @@
 /* You can add global styles to this file, and also import other style files */
+
+header,
+section,
+footer {
+    margin: auto;
+    width: 960px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul {
+    display: inline;
+    float: right;
+}
+
+li {
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+li a {
+    text-decoration: none;
+    margin-top: 30px;
+}
+
+.contenedor_banner {
+    height: 300px;
+}
+
+#banner {
+    margin: auto;
+    background-image: url(assets/imagenes/banner.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 20px;
+    height: 300px;
+}
+
+.foto_perfil {
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: -80px;
+}
+
+.cont_foto {
+    position: relative;
+    top: 0;
+}
+
+
+
+#cont_sobre {
+    text-align: justify;
+    margin-top: 20px;
+}
+
+.experiencia {
+    border: solid;
+    border-color: black;
+    border-style: groove;
+    border-width: 3px;
+}
+
+.empresa {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.input{
+    width: 150px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.enc-login{
+    
+    width: 100px;
+    height: 300px;
+}
+.login{
+    text-align: center;
+    align-items: center;
+    background-color: whitesmoke;
+    border: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.body-login{
+    margin: auto;
+    margin-top: 100px;
+    width: 500px;
+    height: 500px;
+}
+
